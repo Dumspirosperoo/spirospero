@@ -6,121 +6,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>spirospero</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+    <!--Js-->
+    <script defer src="index.js"></script>
+    <!--Font awesome-->
+  <script src="https://kit.fontawesome.com/98fdf19f8d.js" crossorigin="anonymous"></script>
+
+    </head>
   <body>
     <header>
+      <h1> <strong> [DeSpiro] </strong> </h1>
       <div class="logo">
-        <img
-          src="https://source.unsplash.com/1600x900?person"
-          alt="person"
-        />
         <button class="nav-toggle" aria-label="toggle navigation">
-          <span class="hamburger"></span>
+          <span class="hamburger"> </span>
         </button>
+      </div>
         <nav class="nav">
           <ul class="nav__list">
-            <li class="nav__item"><a href="#home" class="nav__link"></a></li>
-            <li class="nav__item">
-              <a href="#services" class="nav__link"></a>
-            </li>
-            <li class="nav__item"><a href="#about" class="nav__link"></a></li>
-            <li class="nav__item"><a href="#work" class="nav__link"></a></li>
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"> <a href="#services" class="nav__link">Services</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
           </ul>
         </nav>
-      </div>
     </header>
     <!-- Introduction -->
-    <section class="intro" id="" home>
-      <h1 class="section__title section__title--intro">
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro" >
         Hi, I am <strong> Seanna Fenwick </strong>
       </h1>
-      <p class="section__subtitle section__subtitle--intro">
-        full stack development
+      <p class="section__subtitle section__subtitle--intro" >
+        Full Stack Developer
       </p>
       <img
-        src="https://source.unsplash.com/1600x900?happyperson"
-        alt="a picture of Seanna Fenwick smiling"
+        src="https://source.unsplash.com/900x900?happyperson"
+        alt="a picture of Seanna Fenwick smiling" class="intro__img"
       />
     </section>
     <!-- My services-->
     <main>
-    <section class="myservices" id="services"></section>
-    <h2 class="section__title section__title--services">What I do</h2>
+    <section class="myservices" id="services">
+    <h2 class="section__title  section__title--services" > What I do </h2>
     <div class="services">
+
       <div class="service">
-        <h3>Front End Development</h3>
-        <p></p>
+        <h3>FrontEnd Development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      </div>
+      <!--service-->
+
+        <div class="service">
+        <h3>BackEnd-Development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
       <!--service-->
 
       <div class="service">
-        <h3>Back End Development</h3>
-        <p></p>
-      </div>
-      <!--service-->
-
-      <div class="service">
-        <h3>Full stack Developement</h3>
-        <p></p>
+        <h3>Fullstack Developement</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
       <!--service-->
     </div>
     <!--services-->
+   
 
-    <a href="#work" class="btn">My work</a>
+    <a href="#work" class="btn section__btn"> <btn> My work </btn> </a>
+
+    </section>
 
     <!--About Me-->
     <section class="about-me" id="about">
       <h2 class="section__title section__title--about">Who I am</h2>
-      <p2 class="section__subtitle section__subtitle--about"></p2>
-
+      <p2 class="section__subtitle section__subtitle--about">Entrepreneur, a Creative, a Visionary...</p2>
       <div class="about-me__body">
-        <p></p>
-        <p></p>
-        <p></p>
+        <p>quas molestias excepturi sint occaecati cupiditate non provident</p>
+        <p>quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et</p>
+        <p>quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et</p>
       </div>
-      <img src="https://source.unsplash.com/1600x900?bus" alt="bus" />
+      <img class="about-me__img" src="https://source.unsplash.com/1500x1500?fitness" alt="bus" />
     </section>
 
     <!--My Work-->
-    <section class="my-work" id="work"></section>
-    <h2 class="section__title"></h2>
-    <p class="" section__subtitle></p>
+    <section class="my-work" id="work">
+    <h2 class="section__title section__title-work"></h2>
+    <p class="section__subtitle section__subtitle-work "></p>
     <div class="portfolio">
       <!--Portfolio item 01-->
-      <a href="#" class="portfolio__item"></a>
-      <img src="" alt="" class="portfolio__img" />
+      <a href="portfolio.html" class="portfolio__item"></a>
+      <img src="https://source.unsplash.com/900x900?india" alt="" class="portfolio__img" />
 
       <!--Portfolio item 02-->
-      <a href="#" class="portfolio__item">
-      <img src="" alt="" class="portfolio__img" />
+      <a href="portfolio.html" class="portfolio__item">
+      <img src="https://source.unsplash.com/900x900?israel" alt="" class="portfolio__img" />
       </a>
 
       <!--Portfolio item 03-->
-      <a href="#" class="portfolio__item">
-      <img src="" alt="" class="portfolio__img" />
+      <a href="portfolio.html" class="portfolio__item">
+      <img src="https://source.unsplash.com/900x900?mexico" alt="" class="portfolio__img" />
       </a>
 
       <!--Portfolio item 04-->
-      <a href="#" class="portfolio__item">
-      <img src="" alt="" class="portfolio__img" />
+      <a href="portfolio.html" class="portfolio__item">
+      <img src="https://source.unsplash.com/900x900?sudan" alt="" class="portfolio__img" />
       </a>
 
       <!--Portfolio item 05-->
-      <a href="#" class="portfolio__item">
-      <img src="" alt="" class="portfolio__img" />
+      <a href="portfolio.html" class="portfolio__item">
+      <img src="https://source.unsplash.com/900x900?spain" alt="yes" class="portfolio__img" />
       </a>
+       <!--Portfolio item 06-->
+       <a href="portfolio.html" class="portfolio__item">
+        <img src="https://source.unsplash.com/900x900?brazil" alt="" class="portfolio__img" />
+        </a>
     </div>
+    </section>
     </main>
 <!--footer-->
-<footer>
+<footer class="footer">
 <a href="mailto:hello@seanna.dev" class="footer-link"> hello@seanna.dev</a>  
 <ul class="social-list">
-  <li class="social-list__item "> <a class="social-list__link href="#" > Facebook </a></li>
-  <li class="social-list__item "> <a class="social-list__link href="#" > Instagram </a></li>
+  <li class="social-list__item ">
+     <a class="social-list__link href="https://twitter.com" > 
+      <i class="fa-brands fa-twitter"></i>
+    </a>
+  </li>
+  <li class="social-list__item "> 
+    <a class="social-list__link href="https://instagram.com" >
+      <i class="fa-brands fa-instagram"></i>
+     </a>
+  </li>
+  <li class="social-list__item "> 
+      <a class="social-list__link href="https://youtube.com" >
+       <i class="fa-brands fa-youtube"></i>
+      </a>
+  </li>
 </ul>
-  <p>Hello</p>
 </footer>
-
   </body>
 </html>
